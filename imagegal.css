@@ -1,0 +1,85 @@
+#style {
+  background-color: black;
+}
+#title  {
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+}
+.col-xs-12 {
+  height: 100px;
+  background-image: url(http://marcinignac.com/blog/fast-dynamic-geometry-in-webgl/fast-dynamic-geometry.jpg);
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.col-xs-6 {
+  height: 100px;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+#image2 {
+  background-image: url(https://www.wired.com/images_blogs/wiredscience/2012/06/pi-walk-660x516.jpg);
+}
+#image3 {
+  background-image: url(https://www.newton.ac.uk/files/covers/968361.jpg);
+}
+.col-xs-4 {
+  height: 100px;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+}
+.col-xs-8 {
+  height: 100px;
+  color: white;
+  border: 2px solid red;
+  margin-bottom: 20px;
+
+}
+#image4 {
+  background-image: url(http://il9.picdn.net/shutterstock/videos/2318930/thumb/5.jpg);
+}
+#image5 {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRQQMRlbMj1PXGxH3ZVFGLVemaA_IPX8Y_B2R_UKmf8KmQ8aYHH);
+}
+#image6 {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSBjcYF7BF_1anc7EM5885jX6jx03DeKb0EJZcE-5PsKfLVK1gW);
+}
+#image7 {
+  background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRyVD-PcUoD1JP_2l8LbRP0RDKy1sbI1SLxo1cysDC9yi-hVg2t);
+}
+#image8 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJdPn3h4wKOjib-3ed4ITnS-AkFVZjh3-5Jiog5420mkzDU8RA);
+
+}
+/* -----------Smartphone View----------- */
+@media only screen and (max-width : 480px) {
+  #style {
+    background-color: blue;
+  }
+  .container-fluid {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+  #style {
+    background-color: yellow;
+  }
+  .container-fluid {
+    width: 80%;
+    padding-bottom: 80%;
+  }
+}
+@media only screen and (min-width : 651px) {
+  #style {
+    background-color: green;
+  }
+  .container-fluid {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+}

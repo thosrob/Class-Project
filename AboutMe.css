@@ -1,0 +1,33 @@
+/*change h1 to an id*/
+h1  {
+  font-family: fantasy;
+  font-size: 22px
+}
+p {
+  text-indent: 15px;
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  font-family: fantasy;
+}
+hr#line1 {
+  border-top: 4px double yellow;
+}
+body  {
+  background-image: url(https://em.wattpad.com/81c95743cbe1e261ee6dfebd82c6f2f4b03397e8/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f385265474b757932654a77475f773d3d2d3231383639373031382e313433316261616534336364353462632e6a7067?s=fit&w=1280&h=1280);
+  background-repeat: no-repeat;
+  background-size: 102%;
+}
+ul {
+  list-style-type: square;
+  list-style-position:inside;
+  padding-left: 10%;
+  color: #ff1493;
+  font-size: 18px;
+}
+/*@media all and (min-width: 400px){
+  body {
+    background-color: black;
+    color: white;
+  }
+}*/
